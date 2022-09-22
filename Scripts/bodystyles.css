@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.tblBody1
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	background-color:#9FD0E8;
+}
+
+.tblBody2
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	background-color:#9E9AED;
+}
+
+.tblHeadding
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	background-color:#309;
+	color:#CCC;
+}
+.bodytxt
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:justify;
+	line-height:18px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.bodytxt2
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:justify;
+	line-height:18px;
+	padding-left:0px;
+	padding-right:10px;
+}
+.spltxt
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	color:#36C;
+	font-weight:bold;
+		padding-left:10px;
+	padding-right:20px;
+}
+
+.spltxt2
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	color:#36C;
+	vertical-align:middle;
+	font-weight:bold;
+	align:center;
+}
+.spltxt3
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	color:#36C;
+	font-weight:bold;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;

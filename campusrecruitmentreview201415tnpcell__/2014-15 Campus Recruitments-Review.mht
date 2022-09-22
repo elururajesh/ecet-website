@@ -1,0 +1,558 @@
+MIME-Version: 1.0
+X-Document-Type: Worksheet
+Content-Location: file:///C:/EA8CB117/2014-15CampusRecruitments-Review.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 12">
+<link rel=3DFile-List href=3D"2014-15CampusRecruitments-Review_files/fileli=
+st.xml">
+<style id=3D"2014-15 Campus Recruitments-Review_7200_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl157200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl637200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl647200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl657200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl667200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl677200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl687200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl697200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"Short Date";
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl707200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl717200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.5pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl727200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:red;
+	font-size:11.5pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl737200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.5pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl747200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl757200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl767200
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Office Excel's Pub=
+lish
+as Web Page wizard.-->
+<!--If the same item is republished from Excel, all information between the=
+ DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id=3D"2014-15 Campus Recruitments-Review_7200" align=3Dcenter
+x:publishsource=3D"Excel">
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D659 style=3D'bord=
+er-collapse:
+ collapse;table-layout:fixed;width:495pt'>
+ <col class=3Dxl647200 width=3D45 style=3D'mso-width-source:userset;mso-wid=
+th-alt:
+ 1645;width:34pt'>
+ <col width=3D326 style=3D'mso-width-source:userset;mso-width-alt:11922;wid=
+th:245pt'>
+ <col width=3D79 style=3D'mso-width-source:userset;mso-width-alt:2889;width=
+:59pt'>
+ <col width=3D67 style=3D'mso-width-source:userset;mso-width-alt:2450;width=
+:50pt'>
+ <col width=3D142 style=3D'mso-width-source:userset;mso-width-alt:5193;widt=
+h:107pt'>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl647200 width=3D45 style=3D'height:15.0pt;width:=
+34pt'></td>
+  <td class=3Dxl157200 width=3D326 style=3D'width:245pt'></td>
+  <td class=3Dxl157200 width=3D79 style=3D'width:59pt'></td>
+  <td class=3Dxl157200 width=3D67 style=3D'width:50pt'></td>
+  <td class=3Dxl157200 width=3D142 style=3D'width:107pt'></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl647200 style=3D'height:15.0pt'></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl647200 style=3D'height:15.0pt'></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td colspan=3D5 height=3D21 class=3Dxl667200 style=3D'height:15.75pt'>ELU=
+RU COLLEGE
+  OF ENGINEERING &amp; TECHNOLOGY</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td colspan=3D5 height=3D21 class=3Dxl747200 style=3D'border-right:.5pt s=
+olid black;
+  height:15.75pt'>Department of Training &amp; Placements</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td colspan=3D5 height=3D21 class=3Dxl667200 style=3D'height:15.75pt'>Rev=
+iew of
+  Campus Placements-2014-15</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl667200 style=3D'height:15.75pt;border-top:none'=
+>Sl.No</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Name of t=
+he
+  Company - Location</td>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>Drive Dat=
+e</td>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>Package</=
+td>
+  <td class=3Dxl637200 style=3D'border-top:none;border-left:none'>Selected/=
+Short
+  Listed</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>1</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Maha Elec=
+tronics
+  Pvt ltd, Hyderabad</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>13/12/201=
+4</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>1.44L</td>
+  <td class=3Dxl707200 style=3D'border-top:none;border-left:none'>31</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>2</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Fony
+  Technologies, Coimbattore</td>
+  <td class=3Dxl687200 style=3D'border-top:none;border-left:none'>19/12/14<=
+/td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>3.25L</td>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>6</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>3</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Superfect=
+ IT
+  Solutions,Chennai</td>
+  <td class=3Dxl687200 style=3D'border-top:none;border-left:none'>27/12/14<=
+/td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>1.8-2.16L=
+</td>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>2</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>4</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Transdyne=
+ IT
+  Services, Vijayawada</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>29/12/201=
+4</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>1.2-1.44L=
+</td>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>10</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>5</td>
+  <td class=3Dxl737200 style=3D'border-top:none;border-left:none'>Thinktel =
+M3 Serv
+  Communications Pvt Ltd, Chennai</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>29/12/201=
+4</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>1.8-2.16L=
+</td>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>6</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>6</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Pentagon =
+Rugged
+  Systems Pvt Ltd, Hyderabad</td>
+  <td class=3Dxl687200 style=3D'border-top:none;border-left:none'>30/12/14<=
+/td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>1.2-1.44L=
+</td>
+  <td class=3Dxl707200 style=3D'border-top:none;border-left:none'>11</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>7</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Efftronics
+  Systems Pvt Ltd, Vijayawada</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>3/1/2015<=
+/td>
+  <td class=3Dxl687200 style=3D'border-top:none;border-left:none'>2.2-2.4L<=
+/td>
+  <td class=3Dxl707200 style=3D'border-top:none;border-left:none'>13</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>8</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Eider Mot=
+ors Pvt
+  Ltd, Hyderabad<span style=3D'mso-spacerun:yes'> </span></td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>6/1/2015<=
+/td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>1-1.2L</t=
+d>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>7</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>9</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Accurate =
+Steel
+  Forgings India Pvt Ltd, Chennai</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>11/1/2015=
+</td>
+  <td class=3Dxl687200 style=3D'border-top:none;border-left:none'>1.2-1.5L<=
+/td>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>5</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl687200 style=3D'height:15.75pt;border-top:none'=
+>10</td>
+  <td class=3Dxl717200 style=3D'border-top:none;border-left:none'>Hinduja G=
+lobal
+  Solutions Pvt Ltd, Bangalore</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>23/1/2015=
+</td>
+  <td class=3Dxl697200 style=3D'border-top:none;border-left:none'>1.44-1.8L=
+</td>
+  <td class=3Dxl667200 style=3D'border-top:none;border-left:none'>11</td>
+ </tr>
+ <tr height=3D25 style=3D'height:18.75pt'>
+  <td height=3D25 class=3Dxl647200 style=3D'height:18.75pt'></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl677200>102</td>
+ </tr>
+ <tr height=3D25 style=3D'height:18.75pt'>
+  <td height=3D25 class=3Dxl647200 style=3D'height:18.75pt'></td>
+  <td class=3Dxl727200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl677200></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl647200 style=3D'height:15.0pt'></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 class=3Dxl647200 style=3D'height:15.0pt'></td>
+  <td class=3Dxl657200>T &amp; P Officer</td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl157200></td>
+  <td class=3Dxl657200>PRINCIPAL</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D45 style=3D'width:34pt'></td>
+  <td width=3D326 style=3D'width:245pt'></td>
+  <td width=3D79 style=3D'width:59pt'></td>
+  <td width=3D67 style=3D'width:50pt'></td>
+  <td width=3D142 style=3D'width:107pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>

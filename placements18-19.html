@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="Scripts\ddaccordion.js">
+</script>
+<script type="text/javascript">
+
+
+ddaccordion.init({
+	headerclass: "silverheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	revealtype: "mouseover", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false
+	defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+	onemustopen: true, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", "selected"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+</script>
+
+
+<style type="text/css">
+
+.applemenu{
+margin: 5px 0;
+padding: 0;
+width: 982px; /*width of menu*/
+border: 1px solid #9A9A9A;
+}
+
+.applemenu div.silverheader a{
+background: black url(silvergradient.gif) repeat-x center left;
+font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+color: white;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 5px 0;
+padding-left: 8px;
+text-decoration: none;
+}
+
+
+.applemenu div.silverheader a:visited, .applemenu div.silverheader a:active{
+color: white;
+}
+
+
+.applemenu div.selected a, .applemenu div.silverheader a:hover{
+background-image: url(silvergradientover.gif);
+color: white;
+}
+
+.applemenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+padding: 5px;
+height: auto px; /*Height that applies to all sub menu DIVs. A good idea when headers are toggled via "mouseover" instead of "click"*/
+}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ECET : Placements 2018-19</title>
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script type="text/javascript" src="SpryAssets/SpryURLUtils.js"></script>
+<script type="text/javascript">
+var params = Spry.Utils.getLocationParamsAsObject();
+</script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<link href="Scripts/bodystyles.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<BODY>
+ <h1><center><font color="#009933"><marquee behavior=alternate>Remarkable Achievement in Campus Placements 2018-19</marquee></font><br><font color="red"> in our Eluru College of Engineering & Technology</font></center></h1>
+  
+
+<table align="center" border="2" width="900" bgcolor="">		
+<tr>			
+<td colspan="20" align="center" bgcolor="#1C68B1" valign="center"> <h2><font color="white" face="verdana"><b>Training  & Placements 2018-19</b> </font></h2></td>		
+</tr>	
+<tr>
+  <th align="center">Company Name - Location</th>
+  <th align="center">LOGO</th>
+  
+  <th align="center">Drive Date </th>
+  <th align="center">Package</th>
+  <th align="center">Selected / Shortlisted Students</th>
+  <th align="center">Details..</th>
+</tr>
+<tr>
+  <td align="center">ABC Corp</td>
+  <TD><img border="0" src="tnpimages-18-19/abc_corp.jpg" width="350" height="100"></a></TD>
+  <td align="center">May'19</td>
+  <td align="center">3L</td><h1></h1>
+  <td align="center">7</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target="_blank">View</a></td>
+</tr>
+<tr>
+  <td align="center">Glenwood Systems India Pvt Ltd</td>
+  <TD><img border="0" src="tnpimages-18-19/glen.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">May'19</td>
+  <td align="center">2.8L</td>
+  <td align="center">1</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">Ibeon Infotech Pvt Ltd</td>
+  <TD><img border="0" src="tnpimages-18-19/ibeon.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">May'19</td>
+  <td align="center">1.44 L</td>
+  <td align="center">22</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">Just Dial India Pvt Ltd</td>
+  <TD><img border="0" src="tnpimages-18-19/jd.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">Jan'19</td>
+  <td align="center">2.8 L</td>
+  <td align="center">13</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">Cloud Mellow Technologies Inc</td>
+  <TD><img border="0" src="tnpimages-18-19/cloud_mellow.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">Jan'19</td>
+  <td align="center">1.44 L</td>
+  <td align="center">3</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">Aliens Infrastructure Group</td>
+<TD><img border="0" src="tnpimages-18-19/alien.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">May'19</td>
+  <td align="center">1.8 L</td>
+  <td align="center">31</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">RAAM Group</td>
+  <TD><img border="0" src="tnpimages-18-19/ram.jpg" width="350" height="100"></a></TD>
+  <td align="center">May'19</td>
+  <td align="center">2.4 L</td>
+  <td align="center">7</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">PathFront Consulting India Pvt Ltd</td>
+  <TD><img border="0" src="tnpimages-18-19/pathfr.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">May'19</td>
+  <td align="center">3 L</td>
+  <td align="center">8</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">Acrux IT Services Pvt Ltd </td>
+ <TD><img border="0" src="tnpimages-18-19/acrux.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">May'19</td>
+  <td align="center">1.2 L</td>
+  <td align="center">43</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+ <td align="center">Vee Technologies Pvt Ltd</td> 
+ <TD><img border="0" src="tnpimages-18-19/vee.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">May'19</td>
+  <td align="center">2.16 L</td>
+  <td align="center">12</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">TATA Consutancy Services Pvt Ltd</td>
+  <TD><img border="0" src="tnpimages-18-19/tcs.jpg" width="350" height="100"></a></TD>
+  
+  <td align="center">May'19</td>
+  <td align="center">2.16 L</td>
+  <td align="center">6</td> <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">Tesseolve Semi Conductors Pvt Ltd</td>
+  <TD><img border="0" src="tnpimages-18-19/tesse.jpg" width="350" height="100"></a></TD>
+  <td align="center">June'19</td>
+  <td align="center">3.3 L</td>
+  <td align="center">2</td>
+  <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">Infosys Technologies Pvt Ltd</td>
+  <TD><img border="0" src="tnpimages-18-19/infosys.jpg" width="350" height="100"></a></TD>
+  <td align="center">May'19</td>
+  <td align="center">3.4 L</td>
+  <td align="center">2</td>
+  <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+<tr>
+  <td align="center">Cognizant Technology Solutions Pvt Ltd</td>
+  <TD><img border="0" src="tnpimages-18-19/cognizant.jpg" width="350" height="100"></a></TD>
+  <td align="center">Jun'19</td>
+  <td align="center">3.4 L</td>
+  <td align="center">3</td>
+  <td align="center" bgcolor="#FFFFFF"><a href="placementdata2018-19.pdf" target=" ">View</a></td>
+</tr>
+
+
+</table>
+
+</div>
+   
+
+</BODY>
+<script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1", {defaultTab: params.tab ? params.tab : 0});
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome! Eluru College of Engineering & Technology : Eluru</title>
+<link rel='stylesheet' type='text/css' href='Scripts/menu.css' />
+<link rel="shortcut icon" href="favicon.ico" >
+<link rel="icon" type="image/gif" href="animated_favicon1.gif" >
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+<script type="text/javascript">
+	$(function() {
+		if ($.browser.msie && $.browser.version.substr(0,1)<7)
+		{
+		$('li').has('ul').mouseover(function(){
+		$(this).children('ul').css('visibility','visible');
+		}).mouseout(function(){
+		$(this).children('ul').css('visibility','hidden');
+		})
+		}
+	});
+</script>
+<script type="text/javascript">
+$(document).ready(function() {	
+
+		var id = '#dialog';
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		//$(id).fadeIn(2000); 	
+	    $('#mask').hide();
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});		
+	
+});
+
+</script>
+
+<style type="text/css">
+body {
+font-family:verdana;
+font-size:15px;
+}
+
+a {color:#333; text-decoration:none}
+a:hover {color:#ccc; text-decoration:none}
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+#boxes #dialog {
+  width:375px; 
+  height:353px;
+  padding:10px;
+  background-color:#ffffff;
+}
+</style>
+</head>
+ <style>
+a:link
+{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
+a:active
+{
+	text-decoration:underline;
+}
+a:visited
+{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#CCC;
+}
+
+
+
+a.sublnk:link
+{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+}
+a.sublnk:hover
+{
+	text-decoration:underline;
+	color:#036;
+	font-weight:bold;
+	font-size:12px;
+}
+
+a.sublnk:active
+{
+	text-decoration:underline;
+}
+a.sublnk:visited
+{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#47A3FF;
+}
+.restricted
+{
+overflow-y: hidden;
+overflow-x: hidden;
+}
+.textInput1
+{
+	width:10px;
+	height:40px;
+	background-image:url(images/searchbg.png);
+	background-repeat:no-repeat;
+	display:inline;
+}
+.txtFld
+{
+    font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#336;
+	background:none;
+	border:none;
+	width:190px;
+	height:24px;
+}
+
+.tt
+{
+	background-position:right;
+	background-image:url(images/headder2.jpg);
+	background-repeat:no-repeat;
+}
+.brdr2
+{
+	border-right:thin double #CCC;
+}
+.sideheaddings
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11px;
+	color:#47A3FF;
+	border-bottom: #47A3FF 7px solid;
+	line-height:20px;
+	
+}
+.gap
+{
+	padding-top:10px;
+}
+.dd
+{
+	list-style-image:url(images/control_play.png);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	color:#666;
+}
+.sidebig
+{
+	background-image:url(images/bg2.jpg);
+	background-repeat:repeat-y;
+	background-position:left;
+	vertical-align:top;
+}
+.sidebig2
+{
+	background-image:url(images/bg.jpg);
+	background-repeat:repeat-y;
+	background-position:right;
+	vertical-align:text-top;
+}
+
+.tst
+{
+	background-image:url(images/test.jpg);
+	background-repeat:no-repeat;
+}
+
+.body
+{
+	scroll-face-color:#06C;
+	scroll-pane-color:#39C;
+
+}
+.bodytxt
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:left;
+	line-height:18px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.bodytxt2
+{
+	font-family:Geneva, Verdana, sans-serif;
+	font-size:10px;
+	color:#666;
+	text-align:justify;
+	line-height:12px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.body 
+{ 
+    background-repeat: no-repeat;
+    background: grey;
+    	
+}
+.overflo
+{
+overflow-y: visible;
+overflow-x: hidden;
+}
+
+.table1 {
+border: 0;
+background: #33CCFF;
+width: 1000px;
+
+}
+</style>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="body">
+<div id="boxes">
+<div style="top: 399.5px; left: 551.5px; display: none;" id="dialog" class="window">
+<br>
+<br>
+<!--br><center><font style="color:#1C68B1;font-family:Verdana; font-size: 16px; font-weight: bold; white-space:nowrap">Remarkable Achievement in<br/>Campus Placements for the Academic<br>year 2014-15</font></center-->
+<br>
+
+<center><a href="https://docs.google.com/forms/d/e/1FAIpQLSf4kFNaUBaXZhEhaq-iaOJhrx2MfqYJ-9yMYfxpYJRKSzYUPQ/viewform?usp=sf_link" target="blank"><font color="blue" size="4">Click Here to AP EAPCET MOCK TEST AT ECET</font></a></center>
+<br>
+
+<br>
+
+<br>
+<br>
+<!--
+<center><font style="color:#1C68B1;font-family:Verdana; font-size: 16px; font-weight: bold; white-space:nowrap">METTL Online Test Links</font></center>
+<br>
+<center><a href="https://tests.mettl.com/authenticateKey/91548746"><font color="blue" size="3">Test-1 MET for Everyone</font></a></center>
+<br>
+<center><a href="https://tests.mettl.com/authenticateKey/732a9a06"><font color="red" size="3">Test 2 - Core Engineering ( Electronics, Electrical & Mechanical)</font></a></center>
+<br>
+-->
+<br>
+<center><a href="#" class="close"><font color="red" size="4"><b>X</b> Close</font></a></center>
+<br>
+</div>
+<!-- Mask to cover the whole screen -->
+<div style="width: 1478px; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+</div>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+	  <td></td>
+      <td rowspan="2" width="1000"><img src="images/head2.jpg" width="1000" height="120" border="0" /></td>
+</tr>
+<tr>
+  <td colspan="2" valign="top" style="color:skyblue;font-family:Verdana; font-size:7px; font-weight: bold; white-space:nowrap">
+   <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<script type='text/javascript'>
+	var wArray=new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+	var	wMonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+	var wDate = new Array("st","nd","rd","th","th","th","th","th","th","th","th","th","th","th","th","th","th","th","th","th","st","nd","rd","th","th","th","th","th","th","th","st");
+	var d = new Date();
+	var strDate =wArray[d.getDay()] +" "+ d.getDate() + "<sup>"+wDate[(d.getDate())-1] + "</sup> "+ wMonth[d.getMonth()] +", " +d.getFullYear();
+	document.write(strDate);
+	 </script>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/home.jpg" width="15" height="10"><a href="index.html">&nbsp;<font style="color:#1C68B1;font-family:Verdana; font-size: 8px; font-weight: bold; white-space:nowrap">Home</a></font><a href="index.html">&nbsp;&nbsp;&nbsp;<a href="contact.html" target="ifr1"><img src="images/mailus.png" width="10" height="10" >&nbsp;&nbsp;<font style="color:#1C68B1;font-family:Verdana; font-size: 8px; font-weight: bold; white-space:nowrap">Contact Us</a></font></center>
+
+</td>
+</tr>      
+<tr>
+<td colspan="2" valign="top">
+   <ul id="menu">
+   <li><a href='index.html'>Home</a></li>
+   <li><a href='#'><span>About Us</span></a>
+   	<ul>
+   	<li><a href="about_ecet.html" target="ifr1">About ECET</a></li>
+          <li><a href="about_govbody.html" target="ifr1">Governing Body</a></li>
+          <li><a href="about_principal.html" target="ifr1">About Principal</a></li>
+          <li><a href="routemap.jpg" target="ifr1">Visiting ECET</a></li>
+	  <li><a href="contact.html" target="ifr1">Contact Us</a></li>
+   	</ul>
+   </li>
+   <li><a href="#" >Admissions</a>
+         <ul>
+          <li><a href="admn_admissions.html" target="ifr1">Admissions in ECET</a></li>
+          <li><a href="admn_eligibility.html" target="ifr1">Eligibility</a></li>
+          <li><a href="admn_feestructure.html" target="ifr1">Fee Structure</a></li>
+         </ul>
+   </li>
+   <li><a href='#'><span>Courses Offered</span></a>
+    <ul>
+          <li><a href="#">B.Tech</a>
+            <ul>
+              <li><a href="dept_eee.html" target="ifr1">Electrical &amp; Electronics Engineering</a></li>
+              <li><a href="dept_ece.html" target="ifr1">Electronics&amp;Communication Engineering </a></li>
+              <li><a href="dept_mech.html" target="ifr1">Mechanical&amp;Engineering</a></li>
+	        <li><a href="dept_cse.html" target="ifr1">Computer Science&amp;Engineering</a></li>
+			<li><a href="dept_snh.html" target="ifr1">Science&amp;Humanities</a></li>
+		</ul>
+          </li>
+          <li><a href="#" >M.Tech</a>
+            <ul>
+              <li><a href="dept_cse.html" target="ifr1">M.Tech (CSE)</a></li>
+		  <li><a href="dept_ece.html" target="ifr1">M.Tech (DECS)</a></li>
+		  <li><a href="dept_eee.html" target="ifr1">M.Tech (PE)</a></li>
+		  <li><a href="dept_ece.html" target="ifr1">M.Tech (VLSI)</a></li>
+            </ul>
+	     </li>
+	     <li><a href="dept_mba.html" target="ifr1">MBA</a></li>
+        </ul>
+      </li>
+
+   <li><a href="#" >Facilities</a>
+        <ul>
+          <li><a href="fac_wifi.html" target="ifr1">Wi-Fi Enabled Campus </a></li>
+          <li><a href="fac_Labs.html" target="ifr1">Well equipped Labs</a></li>
+	  <li><a href="fac_Library.html" target="ifr1">Digital Library</a></li>
+	  <li><a href="fac_ECrooms.html" target="ifr1">e-Class Rooms</a></li>
+	  <li><a href="fac_Cafe.html" target="ifr1">Cafeteria</a></li>
+	  <li><a href="fac_Transport.html" target="ifr1">Transportation</a></li>
+	  <li><a href="fac_LWH.html" target="ifr1">Ladies Waiting Halls</a></li>
+	  <li><a href="fac_Sports.html" target="ifr1">Sports</a></li>
+        </ul>
+      </li>
+    <li><a href="#" >T &amp; P Cell</a>
+        <ul>
+          <li><a href="tnpcell.html" target="blank">About</a></li>
+		  <li><a href="placements20-21.html" target="blank">2020-21 Placements</a></li>
+		  <li><a href="placements19-20.html" target="blank">2019-20 Placements</a></li>
+		  <li><a href="placements18-19.html" target="blank">2018-19 Placements</a></li>
+		  <li><a href="placement17-18.html" target="blank">2017-18 Placements</a></li>
+		  <li><a href="placements16-17.html" target="blank">2016-17 Placements</a></li>
+		  <li><a href="placements15-16.html" target="blank">2015-16 Placements</a></li>
+		  <li><a href="placements14-15.html" target="blank">2014-15 Placements</a></li>
+          <li><a href="2013-14.jpg" target="blank">2013-14 Placements</a></li>
+		  <li><a href="2012-13.jpg" target="ifr1">2012-13 Placements</a></li>
+		 
+		  
+	      <li><a href="contact.html" target="ifr1">Contact Us</a></li>
+        </ul>
+      </li>
+   <li><a href="#" >Student`s Clubs</a>
+        <ul>
+          <li><a href="dept_eee.html?tab=2#TabbedPanels1" target="ifr1">EEE</a></li>
+          <li><a href="dept_ece.html?tab=2#TabbedPanels1" target="ifr1">ECE - VEDA</a></li>
+          <li><a href="dept_mech.html?tab=2#TabbedPanels1" target="ifr1">MECH</a></li>
+          <li><a href="dept_cse.html?tab=2#TabbedPanels1" target="ifr1">CSE - PRAGNA</a></li>
+        </ul>
+    </li>
+    <li><a href="#" >Gallery</a>
+        <ul>
+          <li><a href="image.html" target="ifr1">Image Gallery</a></li>
+		  <li><a href="video.html" target="ifr1">Video Gallery</a></li>
+        
+        </ul>
+    </li>
+    
+	<li><a href="#" >Downloads</a>
+        <ul>
+          <li><a href="antiraggingform.pdf" target="blank">Anti Ragging Form</a></li>
+          <li><a href="application.pdf" target="blank">Admission form</a></li>
+          <li><a href="http://jntuk.edu.in/academics/acadcalendars/" target="blank">Academic Calender</a></li>
+		  <li><a href="http://www.jntuk.edu.in/academics/ugcourses" target="blank">Syllabi</a></li>
+          <li><a href="downloads.html" target="ifr1">Utility Softwares</a></li>
+		  <li><a href="broucher.jpg" target="blank">College Broucher</a></li>
+<li><a href="be.pdf" target="blank">B.Tech </a></li>
+<li><a href="mba.pdf" target="blank">MBA</a></li>
+        </ul>
+    </li>
+	 <li><a href="http://ecet.ac.in/MANDATORY_DISCLOSURE.pdf">Mandatory Disclosure</a></li>
+	 <li><a href="Loa_Eoa.html">LOA & EOA's</a></li>
+	     <li><a href="#" >CONTACT US</a>
+        <ul>
+          <li><a href="aicte_feedback.html" target="ifr1">AICTE FEEDBACK</a></li>
+		  <li><a href="online-grievance.html" target="ifr1">ONLINE GRIEVANCE</a></li>
+        
+        </ul>
+    </li>
+</ul>
+</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+     <td>
+<script type="text/javascript">
+    
+    function getElement(aID)
+    {
+        return (document.getElementById) ?
+            document.getElementById(aID) : 
+
+document.all[aID];
+    }
+
+    function getIFrameDocument(aID){ 
+        var rv = null; 
+        var frame=getElement(aID);
+        // if contentDocument exists, W3C 
+
+compliant (e.g. Mozilla) 
+        if (frame.contentDocument)
+            rv = frame.contentDocument;
+        else // bad Internet Explorer  ;)
+            rv = document.frames[aID].document;
+        return rv;
+    }
+
+    function adjustMyFrameHeight1()
+    {
+        var frame = getElement
+
+("myFrame");
+        var frameDoc = getIFrameDocument
+
+("myFrame");
+        frame.height = frameDoc.body.offsetHeight;
+    }
+	
+	function setIframeHeight(id) {
+    var ifrm = document.getElementById(id);
+    var doc = ifrm.contentDocument? ifrm.contentDocument:ifrm.contentWindow.document;
+    ifrm.style.visibility = 'hidden';
+    ifrm.style.height = "10px"; // reset to minimal height ...
+    // IE opt. for bing/msn needs a bit added or scrollbar appears
+    ifrm.style.height = getDocHeight( doc ) + 1 + "px";
+    ifrm.style.visibility = 'visible';
+}
+function getDocHeight(doc) {
+    doc = doc || document;
+    // stackoverflow.com/questions/1145850/
+    var body = doc.body, html = doc.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+        html.clientHeight, html.scrollHeight, html.offsetHeight );
+    return height;
+}
+</script> 
+<iframe src="default.html" name="ifr1" id="ifr1" width="1000px" height="1000px" class="overflo" scrolling="no" frameborder="0" allowtransparency="yes" onload='setIframeHeight(this);'></iframe>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="vertical-align:bottom">
+  <tr>
+    <td bgcolor="#222" style="padding-top:5px; padding-bottom:5px"><font face="Verdana, Geneva, sans-serif" size="2px" color="#CCCCCC"><center> &copy; &nbsp; All Rights Reserved - Eluru College of Engineering & Technology,Eluru<br>Site Best viewed in IE,FF &amp; Chrome with 1024*768 resolution.</center></font></td>
+  </tr>
+</table>
+</body>
+</html>
